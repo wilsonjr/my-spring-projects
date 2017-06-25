@@ -19,7 +19,7 @@ public class Bookmark {
 	@GeneratedValue
 	private Long id;
 	
-	Bookmark() {} // for JPA
+	public Bookmark() {} // for JPA
 	
 	public Bookmark(Account account, String uri, String description) {
 		this.uri = uri;
